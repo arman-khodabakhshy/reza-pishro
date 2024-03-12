@@ -1,0 +1,38 @@
+* {
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 0px 0px;
+}
+
+body {
+    height: 100vh;
+    background-color: gray;
+}
+
+.parent {
+    width: auto;
+    height:90%;
+    display: flex;
+
+}
+
+button {
+    width: 40%;
+    height: 48%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    background: url(../img/pishro-ramzarz-min.svg);
+    cursor: pointer;
+    border: none;
+}
+
+audio {
+    margin: auto;
+    display: none;
+}
+.Created{
+    text-align: center;
+
+}
